@@ -36,7 +36,7 @@ Node.js와 Express.js를 사용하여 구현한 중고 거래 웹 서비스 REST
 1. 저장소를 클론합니다:
    ```bash
    git clone <저장소 URL>
-   cd fastAPI-test
+   cd node-js-basic
    ```
 
 2. 의존성을 설치합니다:
