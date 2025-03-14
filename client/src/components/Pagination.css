@@ -1,0 +1,80 @@
+/* Pagination 스타일 */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.pagination-item {
+  display: inline-block;
+}
+
+.pagination-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pagination-button-prev,
+.pagination-button-next {
+  padding: 0.5rem 0.75rem;
+}
+
+.pagination-button-prev {
+  border-top-left-radius: var(--radius-lg);
+  border-bottom-left-radius: var(--radius-lg);
+}
+
+.pagination-button-next {
+  border-top-right-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
+}
+
+.pagination-button-active {
+  background-color: var(--color-primary-50);
+  color: var(--color-primary-700);
+  font-weight: 600;
+}
+
+.pagination-button-inactive {
+  background-color: white;
+  color: var(--color-secondary-700);
+}
+
+.pagination-button-inactive:hover {
+  background-color: var(--color-secondary-50);
+  color: var(--color-primary-600);
+}
+
+.pagination-button-disabled {
+  background-color: var(--color-secondary-50);
+  color: var(--color-secondary-400);
+  cursor: not-allowed;
+}
+
+.pagination-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.pagination-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+} 

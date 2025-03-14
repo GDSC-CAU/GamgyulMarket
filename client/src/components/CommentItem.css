@@ -1,0 +1,104 @@
+/* CommentItem 스타일 */
+.comment-item {
+  border-bottom: 1px solid var(--color-secondary-200);
+  padding: 1rem 0;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.comment-content {
+  color: var(--color-secondary-900);
+  line-height: 1.5;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.comment-action-button {
+  font-size: 0.875rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.comment-edit-button {
+  color: var(--color-primary-600);
+}
+
+.comment-edit-button:hover {
+  color: var(--color-primary-800);
+}
+
+.comment-delete-button {
+  color: #e11d48;
+}
+
+.comment-delete-button:hover {
+  color: #be123c;
+}
+
+.comment-date {
+  font-size: 0.875rem;
+  color: var(--color-secondary-500);
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-secondary-300);
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 6rem;
+}
+
+.comment-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2);
+}
+
+.comment-password-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-secondary-300);
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
+
+.comment-password-input:focus {
+  outline: none;
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2);
+}
+
+.comment-error {
+  color: #e11d48;
+  font-size: 0.875rem;
+}
+
+.comment-form-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.comment-delete-message {
+  color: var(--color-secondary-900);
+  margin-bottom: 0.5rem;
+} 
