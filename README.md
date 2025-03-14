@@ -16,7 +16,6 @@
 - **React**: 사용자 인터페이스 구축
 - **TypeScript**: 타입 안정성 확보
 - **React Router**: 클라이언트 사이드 라우팅
-- **Tailwind CSS**: 스타일링
 - **Axios**: API 통신
 
 ### 백엔드
